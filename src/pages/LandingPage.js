@@ -80,8 +80,6 @@ class LandingPage extends Component {
   render() {
     const { loading, jokes, firstName, lastName, jokeCount } = this.state
 
-    console.log('this.state :', this.state)
-
     return (
       <Container>
         <Row>
